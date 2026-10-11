@@ -1,0 +1,20 @@
+# Tidy Nook
+
+> Tidy Nook publishes hands-on organization guides for kitchens, closets, small spaces, and bathrooms, focused on real tested fit and durability rather than spec-sheet summaries.
+
+## Kitchen
+
+- [Best Spice Rack Organizers for Small Kitchens (2026)](https://tidynook.github.io/article-kitchen-spice-rack.html): Five spice organizers compared on drawer fit, label visibility, and capacity.
+
+## Closet & Small Space
+
+- [Best Over-the-Door Hooks & Bins for Tiny Closets](https://tidynook.github.io/article-closet-hooks.html): Hooks and hanging bins compared on weight capacity, door damage risk, and storage gained.
+
+## Bathroom
+
+- [Best Shower Caddies That Don't Rust or Fall Down](https://tidynook.github.io/article-bathroom-caddy.html): Shower caddies compared on grip strength, rust resistance, and ease of install.
+
+## About
+
+- [Affiliate Disclosure](https://tidynook.github.io/affiliate-disclosure.html): How Tidy Nook earns through the Amazon Associates program.
+- [Privacy Policy](https://tidynook.github.io/privacy-policy.html): What data this site collects and how affiliate cookies work.

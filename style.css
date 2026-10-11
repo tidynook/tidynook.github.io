@@ -1,0 +1,119 @@
+/* ============================================
+   Tidy Nook — design system
+   Palette: deep sage + warm honey, on soft linen paper
+   Type: Fraunces (display) + Inter (body)
+   ============================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap');
+
+:root {
+  --paper: #F5F3EC;
+  --ink: #272B24;
+  --sage: #3F5A47;
+  --honey: #C8872E;
+  --honey-deep: #A86C1D;
+  --muted: #6E7265;
+  --line: #DDD8C9;
+  --card: #FFFFFF;
+  --radius: 4px;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: 'Inter', -apple-system, sans-serif;
+  font-size: 17px;
+  line-height: 1.65;
+}
+
+h1, h2, h3, .display {
+  font-family: 'Fraunces', serif;
+  color: var(--sage);
+  line-height: 1.2;
+  margin: 0 0 0.4em;
+  font-weight: 600;
+}
+
+a { color: var(--honey-deep); text-decoration: none; }
+a:hover { text-decoration: underline; }
+a:focus-visible, button:focus-visible { outline: 2px solid var(--honey); outline-offset: 2px; }
+img { max-width: 100%; display: block; }
+
+.wrap { max-width: 900px; margin: 0 auto; padding: 0 24px; }
+
+/* Header */
+header.site { border-bottom: 1px solid var(--line); padding: 26px 0; }
+header.site .wrap { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 10px; }
+.logo { font-family: 'Fraunces', serif; font-weight: 700; font-size: 23px; color: var(--sage); }
+.logo span { color: var(--honey-deep); }
+nav.site a { margin-left: 20px; color: var(--ink); font-size: 14.5px; font-weight: 500; }
+
+/* Hero */
+.hero { max-width: 900px; margin: 0 auto; padding: 54px 24px 30px; }
+.hero h1 { font-size: clamp(30px, 4.6vw, 44px); max-width: 14ch; }
+.hero p { max-width: 54ch; color: var(--muted); font-size: 17.5px; }
+
+/* Category pills */
+.pills { display: flex; gap: 10px; flex-wrap: wrap; margin: 18px 0 8px; }
+.pills a {
+  background: var(--card);
+  border: 1px solid var(--line);
+  padding: 7px 16px;
+  border-radius: 999px;
+  font-size: 14px;
+  color: var(--sage);
+  font-weight: 500;
+}
+.pills a:hover { background: var(--sage); color: #fff; text-decoration: none; }
+
+/* Article list */
+.post-list { max-width: 900px; margin: 0 auto; padding: 30px 24px 64px; display: grid; gap: 1px; background: var(--line); border: 1px solid var(--line); }
+.post-row { background: var(--card); padding: 24px 26px; display: grid; grid-template-columns: 1fr; gap: 6px; }
+.post-row .cat { color: var(--honey-deep); font-size: 13px; font-weight: 600; letter-spacing: 0.02em; }
+.post-row h2 { font-size: 20px; margin: 2px 0 4px; }
+.post-row p { color: var(--muted); margin: 0; font-size: 15px; }
+
+/* Article page */
+article.post { max-width: 700px; margin: 0 auto; padding: 46px 24px 80px; }
+article.post .kicker { color: var(--honey-deep); font-weight: 600; font-size: 14px; margin-bottom: 10px; }
+article.post h1 { font-size: clamp(27px, 4.2vw, 38px); }
+article.post .meta { color: var(--muted); font-size: 14px; margin-bottom: 30px; }
+article.post h2 { font-size: 21px; margin-top: 2.1em; padding-top: 0.6em; border-top: 1px solid var(--line); }
+article.post p { margin: 1em 0; }
+
+.disclosure {
+  background: #EFEADA;
+  border-left: 3px solid var(--honey);
+  padding: 14px 18px;
+  font-size: 14.5px;
+  color: var(--sage);
+  margin: 26px 0;
+  border-radius: 0 var(--radius) var(--radius) 0;
+}
+
+/* Product card */
+.product { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 22px; margin: 20px 0 32px; }
+.product-head { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+.product-head h3 { margin: 0; font-size: 18.5px; }
+.rating { font-family: 'Fraunces', serif; font-weight: 600; color: var(--honey-deep); font-size: 15px; white-space: nowrap; }
+.product ul.pros-cons { list-style: none; padding: 0; margin: 14px 0; display: grid; grid-template-columns: 1fr 1fr; gap: 8px 20px; }
+.product ul.pros-cons li { font-size: 15px; padding-left: 18px; position: relative; }
+.pros li::before { content: "+"; position: absolute; left: 0; color: #3F5A47; font-weight: 700; }
+.cons li::before { content: "–"; position: absolute; left: 0; color: #A3402F; font-weight: 700; }
+
+.btn { display: inline-block; background: var(--honey); color: #fff; font-weight: 600; padding: 10px 20px; border-radius: var(--radius); font-size: 15px; margin-top: 6px; }
+.btn:hover { background: var(--honey-deep); text-decoration: none; }
+
+/* Footer */
+footer.site { border-top: 1px solid var(--line); padding: 32px 0; margin-top: 40px; }
+footer.site .wrap { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 12px; color: var(--muted); font-size: 14px; }
+footer.site a { color: var(--muted); margin-left: 16px; }
+
+@media (max-width: 560px) {
+  .product ul.pros-cons { grid-template-columns: 1fr; }
+  nav.site a { margin-left: 12px; font-size: 13.5px; }
+}
