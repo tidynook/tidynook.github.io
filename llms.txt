@@ -16,6 +16,6 @@
 
 ## About
 
-- [About Tidy Nook](https://tidynook.github.io/about): Who runs the site, how products are compared, and how to send corrections.
+- [About Tidy Nook](https://tidynook.github.io/about): Who runs the site, how products are compared, and how to get in touch.
 - [Affiliate Disclosure](https://tidynook.github.io/affiliate-disclosure): How Tidy Nook earns through the Amazon Associates program.
 - [Privacy Policy](https://tidynook.github.io/privacy-policy): What data this site collects and how affiliate cookies work.
