@@ -138,3 +138,11 @@ footer.site a { color: #E9F3F0; margin-left: 16px; font-weight: 600; }
   .product ul.pros-cons { grid-template-columns: 1fr; }
   nav.site a { margin-left: 12px; font-size: 13.5px; }
 }
+
+/* Author box + about */
+.author-box { background: var(--card); border: 1px solid var(--line); border-left: 5px solid var(--coral); border-radius: var(--radius); padding: 20px 24px; margin: 28px 0; }
+.author-box h2, .author-box h3 { margin: 0 0 6px; font-size: 19px; border: 0; padding: 0; }
+.author-box p { margin: 0.4em 0; font-size: 15.5px; color: var(--muted); }
+.home-about { max-width: 900px; margin: 0 auto 20px; padding: 0 24px; }
+article.post ul { padding-left: 22px; }
+article.post li { margin: 0.4em 0; }

@@ -1,20 +1,21 @@
 # Tidy Nook
 
-> Tidy Nook publishes hands-on organization guides for kitchens, closets, small spaces, and bathrooms, focused on real tested fit and durability rather than spec-sheet summaries.
+> Tidy Nook publishes practical organization guides for kitchens, closets, small spaces, and bathrooms, compared using product specifications and buyer reviews, with a focus on fit and what to measure before buying. Run by Muhammad Arif. We do not run lab tests.
 
 ## Kitchen
 
-- [Best Spice Rack Organizers for Small Kitchens (2026)](https://tidynook.github.io/article-kitchen-spice-rack.html): Five spice organizers compared on drawer fit, label visibility, and capacity.
+- [Best Spice Rack Organizers for Small Kitchens (2026)](https://tidynook.github.io/article-kitchen-spice-rack.html): Two spice organizers compared: a drawer organizer and a 3-tier cabinet, pantry and countertop rack.
 
 ## Closet & Small Space
 
-- [Best Over-the-Door Hooks & Bins for Tiny Closets](https://tidynook.github.io/article-closet-hooks.html): Hooks and hanging bins compared on weight capacity, door damage risk, and storage gained.
+- [Best Over-the-Door Hooks and Organizers for Tiny Closets](https://tidynook.github.io/article-closet-hooks.html): Double hooks and a 5-shelf organizer compared, with what to measure first.
 
 ## Bathroom
 
-- [Best Shower Caddies That Don't Rust or Fall Down](https://tidynook.github.io/article-bathroom-caddy.html): Shower caddies compared on grip strength, rust resistance, and ease of install.
+- [Best Adhesive Shower Caddies With No Drilling](https://tidynook.github.io/article-bathroom-caddy.html): Two rustproof adhesive shower caddy 5-packs compared, plus what to check on your wall.
 
 ## About
 
+- [About Tidy Nook](https://tidynook.github.io/about.html): Who runs the site, how products are compared, and how to send corrections.
 - [Affiliate Disclosure](https://tidynook.github.io/affiliate-disclosure.html): How Tidy Nook earns through the Amazon Associates program.
 - [Privacy Policy](https://tidynook.github.io/privacy-policy.html): What data this site collects and how affiliate cookies work.
