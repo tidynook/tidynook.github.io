@@ -21,6 +21,36 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://tidynook.github.io/article-kitchen-rolling-carts</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tidynook.github.io/article-bathroom-over-toilet-storage</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tidynook.github.io/article-bathroom-vanity-organizer</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tidynook.github.io/article-closet-shoe-cabinets</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tidynook.github.io/article-closet-under-bed-storage</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tidynook.github.io/article-kitchen-drawer-dividers</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://tidynook.github.io/about</loc>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
