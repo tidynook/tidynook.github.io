@@ -1,6 +1,6 @@
 # Tidy Nook
 
-> Tidy Nook publishes practical organization guides for kitchens, closets, small spaces, and bathrooms, compared using product specifications and buyer reviews, with a focus on fit and what to measure before buying. Run by Muhammad Arif. We do not run lab tests.
+> Tidy Nook publishes practical organization guides for kitchens, closets, small spaces, bathrooms, and travel packing, compared using product specifications and buyer reviews, with a focus on fit and what to measure before buying. Run by Muhammad Arif. We do not run lab tests.
 
 ## Kitchen
 
@@ -19,6 +19,10 @@
 - [Best Adhesive Shower Caddies With No Drilling](https://tidynook.github.io/article-bathroom-caddy): Two rustproof adhesive 5-packs compared, plus what to check on your wall before you buy.
 - [Best Over-the-Toilet Storage Cabinets](https://tidynook.github.io/article-bathroom-over-toilet-storage): A tall double-door cabinet and a 3-tier bamboo rack compared, plus what to measure around your toilet.
 - [Best Vanity Organizers for Shared Bathrooms (2026)](https://tidynook.github.io/article-bathroom-vanity-organizer): An under-sink pull-out set and a 3-drawer countertop organizer compared for shared bathrooms.
+
+## Travel
+
+- [Best Packing Cubes for Solo Travelers](https://tidynook.github.io/article-travel-packing-cubes): Three packing cube sets compared by size mix, extras and what to check before you pack.
 
 ## About
 
