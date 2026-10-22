@@ -1,0 +1,17 @@
+<!-- Paste these inside the TRAVEL section of index.html, right after the Packing Cubes card.
+     Copy the same wrapper (div/article/class) that your other cards use. -->
+
+<!-- Best Travel Toiletry Bags -->
+TRAVEL
+<h2><a href="https://tidynook.github.io/article-travel-toiletry-bags">Best Travel Toiletry Bags</a></h2>
+<p>Three travel toiletry bags compared by style, extras and what to check before you pack.</p>
+
+<!-- Best Neck Wallets and Passport Holders -->
+TRAVEL
+<h2><a href="https://tidynook.github.io/article-travel-neck-wallets">Best Neck Wallets and Passport Holders</a></h2>
+<p>A neck pouch, a neck wallet and a passport wallet compared, plus tips for carrying documents safely.</p>
+
+<!-- Best Carry-On Backpacks -->
+TRAVEL
+<h2><a href="https://tidynook.github.io/article-travel-carry-on-backpacks">Best Carry-On Backpacks</a></h2>
+<p>Three 40L carry-on backpacks compared, plus what to check about airline size limits.</p>
