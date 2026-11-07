@@ -2,7 +2,7 @@
 """
 Tidy Nook - keeps the HOME PAGE list and sitemap.xml in sync with the article files.
 
-It NEVER touches the home page design. It only rewrites the part of index.html
+It NEVER touches the home page design, and the home page heading (H1) is LOCKED (see LOCKED_H1). It only rewrites the part of index.html
 between  <!--ARTICLES-START-->  and  <!--ARTICLES-END-->  (same markup as before),
 and it updates sitemap.xml.
 
@@ -21,6 +21,8 @@ BASE = "https://tidynook.github.io/"
 LABELS = {"kitchen": "KITCHEN", "closet": "CLOSET &amp; SMALL SPACE",
           "bathroom": "BATHROOM", "travel": "TRAVEL"}
 KEEP_TITLES = "--keep-titles" in sys.argv
+# LOCKED: the home page heading (H1) must always be exactly this. The script restores it if it ever differs.
+LOCKED_H1 = "Tidy Nook: Small-Space Organizing Guides for Any Home"
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 def lastmod(s):
@@ -81,6 +83,19 @@ if os.path.exists("index.html"):
         print("index.html: %d rows, new articles added: %s" % (sum(len(l[1]) for l in lists), added or "none"))
     else:
         print("index.html: markers <!--ARTICLES-START--> / <!--ARTICLES-END--> not found - home page left untouched")
+
+# ---------- LOCK: home page heading ----------
+if os.path.exists("index.html"):
+    idx2 = open("index.html", encoding="utf-8").read()
+    cur = re.search(r"<h1>(.*?)</h1>", idx2, re.S)
+    if cur and cur.group(1) != LOCKED_H1:
+        idx2 = idx2.replace(cur.group(0), "<h1>%s</h1>" % LOCKED_H1, 1)
+        open("index.html", "w", encoding="utf-8").write(idx2)
+        print("WARNING: home page heading was different - restored to: " + LOCKED_H1)
+    elif not cur:
+        print("WARNING: no <h1> found in index.html")
+    else:
+        print("Home page heading locked and correct: " + LOCKED_H1)
 
 # ---------- sitemap ----------
 if os.path.exists("sitemap.xml") and arts:
